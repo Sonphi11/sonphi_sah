@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #f8f8f8;
   }
+
+  *{
+    background-color: #A6D0DD;
+  }
   
   header {
     background-color: #333;
@@ -55,6 +59,25 @@ body {
     margin-bottom: 10px;
     box-sizing: border-box;
   }
+ 
+
+  .profile-pic {
+    position: relative;
+  }
+  
+  .profile-pic img {
+    width: 2in;
+    height: 2in;
+    border-radius: 50%;
+    border: #333;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+  }
+  
+
+
   
   input[type="submit"] {
     background-color: #333;
